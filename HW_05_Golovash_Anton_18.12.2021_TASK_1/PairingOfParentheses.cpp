@@ -11,7 +11,6 @@ template<typename T>
 inline PairingOfParentheses<T>::~PairingOfParentheses()
 {
 	cout << "Destructor" << endl;
-	delete[] this->_data;
 }
 
 template<typename T>

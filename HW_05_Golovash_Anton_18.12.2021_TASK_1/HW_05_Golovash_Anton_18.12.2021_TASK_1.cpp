@@ -14,7 +14,7 @@ int main()
 	cout << "************************** START OF TASK 1 *************************" << endl;
 	cout << endl;
 
-	char str[] = { ")u(e{f[n]f}ie;" };
+	char str[] = { "u(e{f[n]f}ie;" };
 	PairingOfParentheses<char> Object;
 
 	if (Object.PairingCheck(str))
@@ -37,9 +37,6 @@ int main()
 	{
 		cout << "String " << str1 << " is NOT correct" << endl;
 	}
-
-	Object.~PairingOfParentheses();
-	Object1.~PairingOfParentheses();
 
 	cout << endl;
 	cout << "************************** END OF TASK 1 *************************" << endl;
