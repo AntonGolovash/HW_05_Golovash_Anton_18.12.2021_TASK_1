@@ -4,14 +4,14 @@ template<typename T>
 PairingOfParentheses<T>::PairingOfParentheses()
 {
 	cout << "Constructor" << endl;
-	_data = nullptr;
+	this->_data = nullptr;
 }
 
 template<typename T>
 inline PairingOfParentheses<T>::~PairingOfParentheses()
 {
 	cout << "Destructor" << endl;
-	delete[] _data;
+	delete[] this->_data;
 }
 
 template<typename T>

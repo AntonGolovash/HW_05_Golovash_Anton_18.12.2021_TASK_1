@@ -38,6 +38,9 @@ int main()
 		cout << "Строка " << str1 << " НЕ корректна" << endl;
 	}
 
+	Object.~PairingOfParentheses();
+	Object1.~PairingOfParentheses();
+
 	cout << endl;
 	cout << "************************** END OF TASK 1 *************************" << endl;
 }
