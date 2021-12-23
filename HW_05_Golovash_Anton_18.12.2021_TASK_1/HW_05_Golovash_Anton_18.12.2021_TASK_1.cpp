@@ -27,12 +27,13 @@ int main()
 	}
 
 	char str1[] = { "u(e{f[n]f}i)e;" };
+	PairingOfParentheses<char> Object1;
 
-	if (Object.PairingCheck(str1))
+	if (Object1.PairingCheck(str1))
 	{
 		cout << "Строка " << str1 << " корректна" << endl;
 	}
-	else if (!Object.PairingCheck(str1))
+	else if (!Object1.PairingCheck(str1))
 	{
 		cout << "Строка " << str1 << " НЕ корректна" << endl;
 	}
