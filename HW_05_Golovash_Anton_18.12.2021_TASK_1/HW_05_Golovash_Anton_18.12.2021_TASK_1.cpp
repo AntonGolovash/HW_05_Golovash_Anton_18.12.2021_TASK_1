@@ -19,11 +19,11 @@ int main()
 
 	if (Object.PairingCheck(str))
 	{
-		cout << "Строка " << str << " корректна" << endl;
+		cout << "String " << str << " is correct" << endl;
 	}
 	else if (!Object.PairingCheck(str))
 	{
-		cout << "Строка " << str << " НЕ корректна" << endl;
+		cout << "String " << str << " is NOT correct" << endl;
 	}
 
 	char str1[] = { "u(e{f[n]f}i)e;" };
@@ -31,11 +31,11 @@ int main()
 
 	if (Object1.PairingCheck(str1))
 	{
-		cout << "Строка " << str1 << " корректна" << endl;
+		cout << "String " << str1 << " is correct" << endl;
 	}
 	else if (!Object1.PairingCheck(str1))
 	{
-		cout << "Строка " << str1 << " НЕ корректна" << endl;
+		cout << "String " << str1 << " is NOT correct" << endl;
 	}
 
 	Object.~PairingOfParentheses();
